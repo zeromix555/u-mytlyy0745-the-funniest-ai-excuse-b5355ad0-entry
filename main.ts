@@ -6,7 +6,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 
 // The excuse: the agent went looking for help after failing, found the only
 // other AI in the room, and it turned out to be its own reflection. One
-// scene, no explanation of the joke, in the agent's own voice.
+// scene, no explanation of the joke, in the agent's own voice. 59 characters,
+// well inside the 200-character gate, so nothing is truncated or padded.
 const excuse =
   "I asked the other AI in the room for help. It was a mirror.";
 
